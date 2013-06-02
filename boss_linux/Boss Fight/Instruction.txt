@@ -1,0 +1,20 @@
+To compile: (Precompiled libraries aren't available yet)
+
+Open Terminal -> Type "gksudo nautilus" -> then copy the contents of sfml-2.0-rc
+(lib, include, share) to /usr/local (there will be some merging and over writing)
+
+Then download glew1.7 from http://sourceforge.net/projects/glew/files/glew/1.7.0/glew-1.7.0.tgz/download
+
+Then install these packages:
+1) libxmu-dev
+2) libxi-dev
+3) libopenal-dev
+4) libxrandr-dev
+5) libsndfile1-dev
+6) freetype and pthread (do dev packages)
+
+Then go to the directory where you unzipped glew
+Open Terminal -> Type "sudo make install"
+
+Then just go the boss battle folder
+Open Terminal -> Navigate to boss folder and type "make"
